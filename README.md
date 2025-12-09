@@ -109,8 +109,8 @@ Right now, I have mainly set up the structure for this module and will complete 
 
 ## 4. Repository Structure
 
-Current structure for Milestone 1:
 
+```
 Milestone1/
 
 ├── img/
@@ -125,6 +125,7 @@ Milestone1/
 ├── main.py # simple demo script calling the pipeline
 ├── requirements.txt # Python dependencies
 └── README.md # documentation (this file)
+```
 
 
 
