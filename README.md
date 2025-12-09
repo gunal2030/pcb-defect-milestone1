@@ -1,4 +1,4 @@
-text
+
 # PCB Defect Detection – Milestone 1
 
 ## 1. Project Context
@@ -112,9 +112,13 @@ Right now, I have mainly set up the structure for this module and will complete 
 Current structure for Milestone 1:
 
 Milestone1/
+
 ├── img/
+
 │ ├── Missing_hole_Demonstration_1_Template.jpg # example template image
+
 │ ├── Missing_hole_Demonstration_2_Test.jpg # example test image
+
 │ ├── template_gray.png # saved grayscale template
 │ ├── test_gray_resized.png # saved grayscale test
 │ ├── diff_map.png # absolute difference map
@@ -125,7 +129,7 @@ Milestone1/
 ├── requirements.txt # Python dependencies
 └── README.md # documentation (this file)
 
-text
+
 
 As I extend the project, I will add:
 - `src/extraction.py` for ROI cropping
@@ -145,14 +149,14 @@ Install dependencies (from inside the `Milestone1` folder):
 
 pip install -r requirements.txt
 
-text
+
 
 `requirements.txt` contains:
 
 opencv-python
 numpy
 
-text
+
 
 ### 5.2 Execution
 
@@ -164,7 +168,7 @@ text
 
 python main.py
 
-text
+
 
 3. After execution, check the `img/` folder for:
    - `template_gray.png`
