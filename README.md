@@ -114,11 +114,8 @@ Current structure for Milestone 1:
 Milestone1/
 
 ├── img/
-
 │ ├── Missing_hole_Demonstration_1_Template.jpg # example template image
-
 │ ├── Missing_hole_Demonstration_2_Test.jpg # example test image
-
 │ ├── template_gray.png # saved grayscale template
 │ ├── test_gray_resized.png # saved grayscale test
 │ ├── diff_map.png # absolute difference map
